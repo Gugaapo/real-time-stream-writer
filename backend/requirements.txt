@@ -1,0 +1,10 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+httpx>=0.27.0
+pytest>=8.0.0
+numpy>=1.24
+streamlink>=7.0.0
+streamkit @ git+https://github.com/Gugaapo/stream-in-unexpected-places.git@7eebf052b78059197fcc5463e39ee3622c3ea3b3
+stream-in-novel @ git+https://github.com/Gugaapo/stream-in-unexpected-places.git@7eebf052b78059197fcc5463e39ee3622c3ea3b3#subdirectory=scripts/stream-in-novel
